@@ -1,0 +1,35 @@
+.logo {
+  padding-bottom: 10px;
+}
+.menu {
+  padding-bottom: 1px;
+}
+.menu-mid {
+  padding-bottom: 1px;
+}
+.together {
+  width: 100%;
+  display: flex;
+}
+.all-menu {
+  display: inline-block;
+  padding-right: 50px;
+}
+.menu-customers {
+  display: inline-block;
+  width: 50%;
+}
+.people {
+  justify-content: center;
+  display: inline-flex;
+}
+.people p {
+  margin-left: 10px;
+}
+.table tr th {
+  text-align: left;
+}
+.table {
+  width: 32%;
+  padding-top: 26px;
+}
