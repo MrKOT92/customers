@@ -1,5 +1,29 @@
+body {
+  font-family: Arial;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 .logo {
-  padding-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+.logo-image {
+  height: 25px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+.logo-name {
+  margin: 0
+}
+.avatar {
+  align-items: center;
+  display: flex;
+}
+.avatar-image {
+  height: 25px;
 }
 .menu {
   padding-bottom: 1px;
@@ -13,7 +37,8 @@
 }
 .all-menu {
   display: inline-block;
-  padding-right: 50px;
+  width: 15%;
+  padding: 20px 50px 20px 20px;
 }
 .menu-customers {
   display: inline-block;
