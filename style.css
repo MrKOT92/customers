@@ -16,7 +16,7 @@ body {
   margin-right: 10px;
 }
 .logo-name {
-  margin: 0
+  margin: 0;
 }
 .avatar {
   align-items: center;
@@ -25,12 +25,41 @@ body {
 .avatar-image {
   height: 25px;
 }
-.menu {
-  padding-bottom: 1px;
+.link-icon {
+  height: 20px;
+  margin-right: 9px;
+}
+.menu-search a {
+  text-decoration: none;
+  color: #717171;
+}
+
+.menu-search p:nth-child(5) a {
+  background: #4059f2;
+  color: #9da2a7;
+  padding-top: 4px;
+  padding-bottom: 8px;
+  padding-right: 113px;
+  border-radius: 6px;
 }
 .menu-mid {
-  padding-bottom: 1px;
+  padding-top: 2px;
 }
+.menu-mid a {
+  text-decoration: none;
+  color: black;
+}
+.menu-mid .link-icon a p:first-child {
+  color: #717171;
+}
+.menu-bot {
+  padding-top: 2px;
+}
+.menu-bot a {
+  text-decoration: none;
+  color: black;
+}
+
 .together {
   width: 100%;
   display: flex;
@@ -40,13 +69,52 @@ body {
   width: 15%;
   padding: 20px 50px 20px 20px;
 }
+.customers {
+  padding-top: 22px;
+  color: black;
+  margin-bottom: 14px;
+}
 .menu-customers {
   display: inline-block;
   width: 50%;
 }
-.people {
-  justify-content: center;
+h3 {
+  margin: 0;
+}
+
+.people-customers {
   display: inline-flex;
+  justify-content: space-between;
+  margin-left: 11px;
+  width: 270px;
+}
+.people-customers p {
+  margin: 9px;
+}
+
+.nr-74 {
+  background: #f1f1f1;
+  color: #9da2a7;
+  border-radius: 6px;
+}
+.nr-31 {
+  background: #f1f1f1;
+  color: #9da2a7;
+  border-radius: 6px;
+}
+
+.people-nr {
+  display: inline-flex;
+  justify-content: space-between;
+  width: 84px;
+  height: 35px;
+  font-size: 17px;
+}
+
+.companies-nr {
+  display: inline-flex;
+  justify-content: space-between;
+  width: 126px;
 }
 .people p {
   margin-left: 10px;
