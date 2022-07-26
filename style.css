@@ -26,7 +26,7 @@ body {
   height: 25px;
 }
 .link-icon {
-  height: 20px;
+  height: 16px;
   margin-right: 9px;
 }
 .menu-search a {
@@ -36,11 +36,15 @@ body {
 
 .menu-search p:nth-child(5) a {
   background: #4059f2;
-  color: #9da2a7;
-  padding-top: 4px;
+  color: #f1f2f3;
+  padding-top: 6px;
   padding-bottom: 8px;
   padding-right: 113px;
   border-radius: 6px;
+}
+.menu-search p:nth-child(6) a {
+  color: #3a4ab4;
+  font-weight: bold;
 }
 .menu-mid {
   padding-top: 2px;
@@ -49,7 +53,7 @@ body {
   text-decoration: none;
   color: black;
 }
-.menu-mid .link-icon a p:first-child {
+.menu-mid p:first-child a {
   color: #717171;
 }
 .menu-bot {
@@ -58,6 +62,12 @@ body {
 .menu-bot a {
   text-decoration: none;
   color: black;
+}
+.menu-bot p:first-child a {
+  color: #717171;
+}
+.menu-bot p:nth-child(5) a {
+  color: #717171;
 }
 
 .together {
@@ -83,10 +93,22 @@ h3 {
 }
 
 .people-customers {
-  display: inline-flex;
   justify-content: space-between;
   margin-left: 11px;
-  width: 270px;
+  width: 707px;
+  position: relative;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: lightgray;
+}
+.people-customers:before {
+  position: absolute;
+  background: #3f57f3;
+  height: 2px;
+  content: "";
+  width: 117px;
+  bottom: -2px;
+  left: 0;
 }
 .people-customers p {
   margin: 9px;
@@ -115,14 +137,27 @@ h3 {
   display: inline-flex;
   justify-content: space-between;
   width: 126px;
+  margin-left: 80px;
 }
 .people p {
   margin-left: 10px;
 }
-.table tr th {
-  text-align: left;
-}
-.table {
-  width: 32%;
+table {
+  border-collapse: separate;
+  border-spacing: 0 15px;
+  width: 1000px;
   padding-top: 26px;
+  padding-left: 15px;
+}
+
+th,
+td {
+  width: 68px;
+  text-align: left;
+  color: black;
+
+  padding: 4px;
+}
+th {
+  color: #9da2a7;
 }
